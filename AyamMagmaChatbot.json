@@ -1,0 +1,71 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Ayam Magma disini. Ada yang bisa kami bantu?",
+        "Halo! Saya Ayam Magma, mau pesan apa?",
+        "Helo! Ini Ayam Magma. Lagi kepo tentang Ayam Magma ya?"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Apa saja menu makanan dan camilan di Ayam Magma?",
+        "Makanan mana yang terlaris apa disini?",
+        "Apa itu Ayam Bakar Magma?",
+        "Apa itu Ayam Goreng Magma?"     
+      ],
+      "responses": [
+        "Sementara ini, ada dua menu yang kami sediakan, Ayam Bakar Magma dan Ayam Goreng Magma",
+        "Ayam Bakar Magma",
+        "Ayam Bakar Magma adalah salah satu menu makanan andalan dan signature kami dengan ayam bakar yang cita rasa ayam ungkep rempah-rempah khas, bumbu celup yang gurih, dan sambal bawang magma yang istimewa!",
+        "Ayam Goreng Magma adalah salah satu menu makanan andalan dan signature kami dengan ayam goreng yang cita rasa ayam ungkep rempah-rempah khas, bumbu celup yang gurih, dan sambal bawang magma yang istimewa!"
+      ]
+    },
+    {
+      "tag": "pemesanan",
+      "patterns": [
+        "Bagaimana saya dapat memesan Ayam Magma?",
+        "Pengen order!"
+        "Saya mau pesen Ayam Bakar Magmanya satu/1, sambelnya sambel bawang magma, saya ambil ke tempat ya kak!",
+      ],
+      "responses": [
+        "Kalian bisa memesan menu-menu Ayam Magma melalui GoJek, datang langsung ke kedai, melalui Direct Message Instagram, atau chat WhatsApp yang tertera di Instagram kami @ayammagma.id",
+        "Jangan cuman pengen aja kak! Yuk dah buruan order hehe..",
+        "Oke kak! Pesanan segera disiapkan, jika ada tambahan pesanan selanjutnya hubungi nomor kami ya! 082223404979"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    }
+  ]
+}
